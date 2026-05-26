@@ -1,5 +1,5 @@
 SetProject:Rate="16000"
 DcOffsetRemover:Use_Preset="<Factory Defaults>"
 Stereo to Mono:
-LoudnessNormalization:DualMono="1" LUFSLevel="-16" NormalizeTo="1" RMSLevel="-20" StereoIndependent="0"
+LoudnessNormalization:DualMono="1" LUFSLevel="-16" NormalizeTo="1" RMSLevel="-25" StereoIndependent="0"
 ExportWav:
