@@ -13,23 +13,20 @@ This repository is organized into multiple branches, each containing audio files
 ## Branches
 
 ### 🎤 Google-Female
-- **Commit**: `91c4239d57a3f82d099a3f81f9be89d0e75d3d1a`
 - **TTS Engine**: Google Cloud Text-to-Speech
 - **Voice Type**: Female
 - **Language**: English (Australian)
 - Contains audio files generated using Google's female voice for Australian English
 
 ### 🎤 Google-Male
-- **Commit**: `3aadd1e09cea6ad803afb3a57c56c18d1a382d0d`
 - **TTS Engine**: Google Cloud Text-to-Speech
 - **Voice Type**: Male
 - **Language**: English (Australian)
 - Contains audio files generated using Google's male voice for Australian English
 
 ### 📌 main
-- **Commit**: `3a177de07610801f4734a780f002de3e073d1b93`
 - **Description**: Primary branch
-- The main development and reference branch for the repository
+- The main development and reference branch of text files for the repository
 
 ## Features
 
@@ -38,17 +35,6 @@ This repository is organized into multiple branches, each containing audio files
 - ✅ Australian English language support
 - ✅ Optimized for SVX-Link integration
 - ✅ Licensed under GNU General Public License v2.0
-
-## Repository Statistics
-
-| Metric | Value |
-|--------|-------|
-| Repository Size | ~43.5 MB |
-| Default Branch | main |
-| License | GNU General Public License v2.0 |
-| Downloads Enabled | Yes |
-| Issues Enabled | Yes |
-| Public | Yes |
 
 ## Getting Started
 
@@ -90,15 +76,6 @@ This means:
 
 SVX-Link is a Linux-based amateur radio voice server developed for the amateur radio community. For more information about SVX-Link, visit:
 - [SVX-Link Official Website](https://www.svxlink.org/)
-
-## Contributing
-
-Contributions are welcome! To contribute:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a pull request
 
 ## Support
 
