@@ -12,21 +12,33 @@ This repository is organized into multiple branches, each containing audio files
 
 ## Branches
 
-### 🎤 Google-Female
+### 🎤 Google-Female-1
 - **TTS Engine**: Google Cloud Text-to-Speech
-- **Voice Type**: Female
+- **Voice Type**: Female Plain
 - **Language**: English (Australian)
 - Contains audio files generated using Google's female voice for Australian English
 
-### 🎤 Google-Male
+### 🎤 Google-Male-1
 - **TTS Engine**: Google Cloud Text-to-Speech
-- **Voice Type**: Male
+- **Voice Type**: Male News-G
+- **Language**: English (Australian)
+- Contains audio files generated using Google's male voice for Australian English
+  
+### 🎤 Google-Female-2
+- **TTS Engine**: Google Cloud Text-to-Speech
+- **Voice Type**: Female Neural2-C
+- **Language**: English (Australian)
+- Contains audio files generated using Google's female voice for Australian English
+
+### 🎤 Google-Male-2
+- **TTS Engine**: Google Cloud Text-to-Speech
+- **Voice Type**: Male Neural2-D
 - **Language**: English (Australian)
 - Contains audio files generated using Google's male voice for Australian English
 
 ### 📌 main
 - **Description**: Primary branch
-- The main development and reference branch of text files for the repository
+- The main reference branch of text files for the repository
 
 ## Features
 
@@ -38,30 +50,28 @@ This repository is organized into multiple branches, each containing audio files
 
 ## Getting Started
 
-1. Clone the repository:
+1. Clone the Repository
    ```bash
-   git clone https://github.com/vk5trm/en_AU.git
+   cd /usr/share/svxlink/sounds
+   sudo git clone https://github.com/vk5trm/en_AU.git
    ```
 
-2. Switch to your preferred branch:
+3. Switch to your preferred branch:
    ```bash
-   # For Google Female voice
-   git checkout Google-Female
+   # For Google Female voice number 1
+   git checkout Google-Female-1
    
-   # For Google Male voice
-   git checkout Google-Male
+   # For Google Male voice number 1
+   git checkout Google-Male-1
+
+    # For Google Female voice number 2
+   git checkout Google-Female-2
+   
+   # For Google Male voice number 2
+   git checkout Google-Male-2
    ```
 
-3. Integrate the audio files into your SVX-Link configuration by adding DEFAULT_LANG=en_AU to your repeater or simplex logic in your svxlink.conf 
-
-## Audio File Branches
-
-Each branch (`Google-Female` and `Google-Male`) contains a complete set of audio files generated using the respective TTS engine and voice:
-
-- **Google-Female**: Australian English with a female voice
-- **Google-Male**: Australian English with a male voice
-
-Select the branch that best matches your preference for voice and use case.
+4. Integrate the audio files into your SVX-Link configuration by adding DEFAULT_LANG=en_AU to your repeater or simplex logic in your svxlink.conf 
 
 ## License
 
