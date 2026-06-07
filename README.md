@@ -36,6 +36,18 @@ This repository is organized into multiple branches, each containing audio files
 - **Language**: English (Australian)
 - Contains audio files generated using Google's male voice for Australian English
 
+### 🎤 Google-Female-3
+- **TTS Engine**: Google Cloud Text-to-Speech
+- **Voice Type**: Female News-F
+- **Language**: English (Australian)
+- Contains audio files generated using Google's female voice for Australian English
+
+### 🎤 Google-Male-3
+- **TTS Engine**: Google Cloud Text-to-Speech
+- **Voice Type**: Male Standard-B
+- **Language**: English (Australian)
+- Contains audio files generated using Google's male voice for Australian English
+
 ### 📌 main
 - **Description**: Primary branch
 - The main reference branch of text files for the repository
