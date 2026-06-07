@@ -91,6 +91,14 @@ git checkout Google-Female-2
   ```bash
 git checkout Google-Male-2
   ```
+  For Google Female voice number 3
+  ```bash
+git checkout Google-Female-3
+  ```
+   For Google Male voice number 3
+  ```bash
+git checkout Google-Male-3
+  ```
 
 ### 4a. Integrate the audio files into your SVX-Link configuration by adding this to your repeater or simplex logic in your svxlink.conf 
  ```bash
@@ -103,6 +111,12 @@ DEFAULT_LANG=en_AU
 cd /usr/share/svxlink/sounds/
 sudo ln -s /usr/share/svxlink/sounds/en_AU en_US
 ```
+### 5. Check for updates with
+```bash
+cd /usr/share/svxlink/sounds/en_AU
+git pull
+```
+
 ## License
 
 This project is licensed under the **GNU General Public License v2.0** - see the LICENSE file for details.
