@@ -64,16 +64,17 @@ This repository is organized into multiple branches, each containing audio files
 
 ### 1. Clone the Repository
    ```bash
-git clone https://github.com/vk5trm/en_AU.git
+git clone https://github.com/vk5trm/en_AU-VK5TRM.git)
    ```
 ### 2. Then move the files to the SVXLink sounds directory
    ```bash
-sudo mv en_AU /usr/share/svxlink/sounds
+sudo mv en_AU-VK5TRM /usr/share/svxlink/sounds
    ```
 
 ### 3. Switch to your preferred branch:
+You will need to go though each of the voices so that they are known to your system before using my [svx-cmd](https://github.com/vk5trm/svxlink-cmd) script
  ```bash
-cd /usr/share/svxlink/sounds/en_AU
+cd /usr/share/svxlink/sounds/en_AU-VK5TRM
 ```
    For Google Female voice number 1
   ```bash
@@ -102,7 +103,7 @@ git checkout Google-Male-3
 
 ### 4a. Integrate the audio files into your SVX-Link configuration by adding this to your repeater or simplex logic in your svxlink.conf 
  ```bash
-DEFAULT_LANG=en_AU
+DEFAULT_LANG=en_AU-VK5TRM
  ```
 ### or
       
@@ -113,7 +114,7 @@ sudo ln -s /usr/share/svxlink/sounds/en_AU en_US
 ```
 ### 5. Check for updates with
 ```bash
-cd /usr/share/svxlink/sounds/en_AU
+cd /usr/share/svxlink/sounds/en_AU-VK5TRM
 git pull
 ```
 
