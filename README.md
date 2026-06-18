@@ -72,7 +72,7 @@ sudo mv en_AU-VK5TRM /usr/share/svxlink/sounds
    ```
 
 ### 3. Switch to your preferred branch:
-You will need to go though each of the voices so that they are known to your system before using my [svx-cmd](https://github.com/vk5trm/svxlink-cmd) script
+You will need to go though each of the voices so that they are known to your system before using my [svxlink-cmd](https://github.com/vk5trm/svxlink-cmd) script
  ```bash
 cd /usr/share/svxlink/sounds/en_AU-VK5TRM
 ```
@@ -101,23 +101,26 @@ git checkout Google-Female-3
 git checkout Google-Male-3
   ```
 
-### 4a. Integrate the audio files into your SVX-Link configuration by adding this to your repeater or simplex logic in your svxlink.conf 
+### 4a.  Use my [svxlink-cmd](https://github.com/vk5trm/svxlink-cmd) script to change voices and create the links
+### or
+
+### 4b. Integrate the audio files into your SVX-Link configuration by adding this to your repeater or simplex logic in your svxlink.conf 
  ```bash
 DEFAULT_LANG=en_AU-VK5TRM
  ```
 ### or
       
-### 4b. Create a link to the new directory by using
+### 4c. Create a link to the new directory by using
 ```bash
 cd /usr/share/svxlink/sounds/
-sudo ln -s /usr/share/svxlink/sounds/en_AU en_US
+sudo ln -s /usr/share/svxlink/sounds/en_AU-VK5TRM en_US
 ```
 ### 5. Check for updates with
 ```bash
 cd /usr/share/svxlink/sounds/en_AU-VK5TRM
 git pull
 ```
-
+You need to go though each voice and do the git pull on each one of the voices
 ## License
 
 This project is licensed under the **GNU General Public License v2.0** - see the LICENSE file for details.
